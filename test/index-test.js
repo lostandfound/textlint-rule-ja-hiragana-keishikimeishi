@@ -587,7 +587,7 @@ tester.run("rule", rule, {
       text: "する訳が",
       output: "するわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 3
       }]
@@ -597,7 +597,7 @@ tester.run("rule", rule, {
       text: "した訳が",
       output: "したわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 3
       }]
@@ -607,7 +607,7 @@ tester.run("rule", rule, {
       text: "しない訳が",
       output: "しないわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 4
       }]
@@ -617,7 +617,7 @@ tester.run("rule", rule, {
       text: "しなかった訳が",
       output: "しなかったわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 6
       }]
@@ -627,7 +627,7 @@ tester.run("rule", rule, {
       text: "嬉しい訳が",
       output: "嬉しいわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 4
       }]
@@ -637,7 +637,7 @@ tester.run("rule", rule, {
       text: "嬉しかった訳が",
       output: "嬉しかったわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 6
       }]
@@ -647,7 +647,7 @@ tester.run("rule", rule, {
       text: "嬉しくない訳が",
       output: "嬉しくないわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 6
       }]
@@ -657,7 +657,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった訳が",
       output: "嬉しくなかったわけが",
       errors: [{
-        message: `ひらがなで表記したわけが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
         line: 1,
         column: 8
       }]

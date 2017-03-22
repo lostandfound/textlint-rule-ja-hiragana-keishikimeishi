@@ -1,9 +1,7 @@
 "use strict";
 
-const fs = require("fs");
 const kuromojin = require("kuromojin");
 const createMatcher = require("morpheme-match-all");
-const yaml = require("js-yaml");
 const dictionaries = require("./dict");
 
 const matchAll = createMatcher(dictionaries);

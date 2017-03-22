@@ -1,4 +1,4 @@
-# textlint-rule-ja-hiragana-daimeishi
+# textlint-rule-ja-hiragana-keishikimeishi
 
 Check easy-to-read Keishikimeishi(pronouns) written in Hiragana than Kanji.
 
@@ -8,7 +8,7 @@ Check easy-to-read Keishikimeishi(pronouns) written in Hiragana than Kanji.
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-ja-hiragana-daimeishi
+    npm install textlint-rule-ja-hiragana-keishikimeishi
 
 ## Usage
 
@@ -17,7 +17,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "ja-hiragana-Keishikimeishi": true
+        "ja-hiragana-keishikimeishi": true
     }
 }
 ```
@@ -25,13 +25,13 @@ Via `.textlintrc`(Recommended)
 Via CLI
 
 ```
-textlint --rule ja-hiragana-Keishikimeishi README.md
+textlint --rule ja-hiragana-keishikimeishi README.md
 ```
 
 ### Fixable
 
 ```
-textlint --fix ja-hiragana-Keishikimeishi README.md
+textlint --fix ja-hiragana-keishikimeishi README.md
 ```
 
 ### Build

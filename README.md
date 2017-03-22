@@ -62,6 +62,7 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 | 〜する訳(が) | 〜するわけ(が) |
 | 〜する所(だ) | 〜するところ(だ) |
 | 〜する通り(に) | 〜するとおり(に) |
+| 〜する物(だ) | 〜するもの(だ) |
 
 ## License
 

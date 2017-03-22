@@ -1037,5 +1037,107 @@ module.exports = [
         "pronunciation": "ワケ"
       }
     ]
+  },
+  // 物 => もの
+  {
+    // 動詞 + 形式名詞
+    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    expected: "もの",
+    extensions: {
+      offset: 1 // 置換をスタートするtokenの添字
+    },
+    tokens: [{
+        "pos": "動詞"
+      },
+      {
+        "surface_form": "物",
+        "pos": "名詞",
+        "pos_detail_1": "非自立",
+        "pos_detail_2": "一般",
+        "pos_detail_3": "*",
+        "conjugated_type": "*",
+        "conjugated_form": "*",
+        "basic_form": "物",
+        "reading": "モノ",
+        "pronunciation": "モノ"
+      }
+    ]
+  },
+  {
+    // 形容詞 + 形式名詞
+    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    expected: "もの",
+    extensions: {
+      offset: 1 // 置換をスタートするtokenの添字
+    },
+    tokens: [{
+        "pos": "形容詞"
+      },
+      {
+        "surface_form": "物",
+        "pos": "名詞",
+        "pos_detail_1": "非自立",
+        "pos_detail_2": "一般",
+        "pos_detail_3": "*",
+        "conjugated_type": "*",
+        "conjugated_form": "*",
+        "basic_form": "物",
+        "reading": "モノ",
+        "pronunciation": "モノ"
+      }
+    ]
+  },
+  {
+    // 助動詞 + 形式名詞
+    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    expected: "もの",
+    extensions: {
+      offset: 1 // 置換をスタートするtokenの添字
+    },
+    tokens: [
+      {
+        "pos": "助動詞"
+      },
+      {
+        "surface_form": "物",
+        "pos": "名詞",
+        "pos_detail_1": "非自立",
+        "pos_detail_2": "一般",
+        "pos_detail_3": "*",
+        "conjugated_type": "*",
+        "conjugated_form": "*",
+        "basic_form": "物",
+        "reading": "モノ",
+        "pronunciation": "モノ"
+      }
+    ]
+  },
+  {
+    // 助動詞 + 助動詞 + 形式名詞
+    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    expected: "もの",
+    extensions: {
+      offset: 2 // 置換をスタートするtokenの添字
+    },
+    tokens: [
+      {
+        "pos": "助動詞"
+      },
+      {
+        "pos": "助動詞"
+      },
+      {
+        "surface_form": "物",
+        "pos": "名詞",
+        "pos_detail_1": "非自立",
+        "pos_detail_2": "一般",
+        "pos_detail_3": "*",
+        "conjugated_type": "*",
+        "conjugated_form": "*",
+        "basic_form": "物",
+        "reading": "モノ",
+        "pronunciation": "モノ"
+      }
+    ]
   }
 ];

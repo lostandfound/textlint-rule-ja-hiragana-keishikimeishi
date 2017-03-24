@@ -17,7 +17,7 @@ tester.run("rule", rule, {
       text: "する上で",
       output: "するうえで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 3
       }]
@@ -27,7 +27,7 @@ tester.run("rule", rule, {
       text: "した上で",
       output: "したうえで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 3
       }]
@@ -37,7 +37,7 @@ tester.run("rule", rule, {
       text: "しない上で",
       output: "しないうえで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 4
       }]
@@ -47,7 +47,7 @@ tester.run("rule", rule, {
       text: "しなかった上で",
       output: "しなかったうえで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 6
       }]
@@ -57,7 +57,7 @@ tester.run("rule", rule, {
       text: "嬉しい上に",
       output: "嬉しいうえに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 4
       }]
@@ -67,7 +67,7 @@ tester.run("rule", rule, {
       text: "嬉しかった上に",
       output: "嬉しかったうえに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 6
       }]
@@ -77,7 +77,7 @@ tester.run("rule", rule, {
       text: "嬉しくない上に",
       output: "嬉しくないうえに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 6
       }]
@@ -87,7 +87,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった上に",
       output: "嬉しくなかったうえに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
         line: 1,
         column: 8
       }]
@@ -97,7 +97,7 @@ tester.run("rule", rule, {
       text: "する事で",
       output: "することで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 3
       }]
@@ -107,7 +107,7 @@ tester.run("rule", rule, {
       text: "した事で",
       output: "したことで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 3
       }]
@@ -117,7 +117,7 @@ tester.run("rule", rule, {
       text: "しない事で",
       output: "しないことで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 4
       }]
@@ -127,7 +127,7 @@ tester.run("rule", rule, {
       text: "しなかった事で",
       output: "しなかったことで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 6
       }]
@@ -137,7 +137,7 @@ tester.run("rule", rule, {
       text: "嬉しい事が",
       output: "嬉しいことが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 4
       }]
@@ -147,7 +147,7 @@ tester.run("rule", rule, {
       text: "嬉しかった事が",
       output: "嬉しかったことが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 6
       }]
@@ -157,7 +157,7 @@ tester.run("rule", rule, {
       text: "嬉しくない事が",
       output: "嬉しくないことが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 6
       }]
@@ -167,7 +167,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった事が",
       output: "嬉しくなかったことが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
         line: 1,
         column: 8
       }]
@@ -177,7 +177,7 @@ tester.run("rule", rule, {
       text: "する毎に",
       output: "するごとに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
         line: 1,
         column: 3
       }]
@@ -187,7 +187,7 @@ tester.run("rule", rule, {
       text: "した毎に",
       output: "したごとに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
         line: 1,
         column: 3
       }]
@@ -197,7 +197,7 @@ tester.run("rule", rule, {
       text: "しない毎に",
       output: "しないごとに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
         line: 1,
         column: 4
       }]
@@ -207,7 +207,7 @@ tester.run("rule", rule, {
       text: "しなかった毎に",
       output: "しなかったごとに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
         line: 1,
         column: 6
       }]
@@ -217,7 +217,7 @@ tester.run("rule", rule, {
       text: "一文字毎に",
       output: "一文字ごとに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
         line: 1,
         column: 4
       }]
@@ -227,7 +227,7 @@ tester.run("rule", rule, {
       text: "する度に",
       output: "するたびに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
         line: 1,
         column: 3
       }]
@@ -237,7 +237,7 @@ tester.run("rule", rule, {
       text: "した度に",
       output: "したたびに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
         line: 1,
         column: 3
       }]
@@ -247,7 +247,7 @@ tester.run("rule", rule, {
       text: "しない度に",
       output: "しないたびに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
         line: 1,
         column: 4
       }]
@@ -257,7 +257,7 @@ tester.run("rule", rule, {
       text: "しなかった度に",
       output: "しなかったたびに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
         line: 1,
         column: 6
       }]
@@ -267,7 +267,7 @@ tester.run("rule", rule, {
       text: "する為で",
       output: "するためで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 3
       }]
@@ -277,7 +277,7 @@ tester.run("rule", rule, {
       text: "した為で",
       output: "したためで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 3
       }]
@@ -287,7 +287,7 @@ tester.run("rule", rule, {
       text: "しない為で",
       output: "しないためで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 4
       }]
@@ -297,7 +297,7 @@ tester.run("rule", rule, {
       text: "しなかった為で",
       output: "しなかったためで",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 6
       }]
@@ -307,7 +307,7 @@ tester.run("rule", rule, {
       text: "嬉しい為に",
       output: "嬉しいために",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 4
       }]
@@ -317,7 +317,7 @@ tester.run("rule", rule, {
       text: "嬉しかった為に",
       output: "嬉しかったために",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 6
       }]
@@ -327,7 +327,7 @@ tester.run("rule", rule, {
       text: "嬉しくない為に",
       output: "嬉しくないために",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 6
       }]
@@ -337,7 +337,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった為に",
       output: "嬉しくなかったために",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
         line: 1,
         column: 8
       }]
@@ -347,7 +347,7 @@ tester.run("rule", rule, {
       text: "言う通りに",
       output: "言うとおりに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "通り" => "とおり"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 通り => とおり`,
         line: 1,
         column: 3
       }]
@@ -357,7 +357,7 @@ tester.run("rule", rule, {
       text: "言った通りに",
       output: "言ったとおりに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "通り" => "とおり"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 通り => とおり`,
         line: 1,
         column: 4
       }]
@@ -367,7 +367,7 @@ tester.run("rule", rule, {
       text: "言われた通りに",
       output: "言われたとおりに",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "通り" => "とおり"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 通り => とおり`,
         line: 1,
         column: 5
       }]
@@ -377,7 +377,7 @@ tester.run("rule", rule, {
       text: "する時は",
       output: "するときは",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 3
       }]
@@ -387,7 +387,7 @@ tester.run("rule", rule, {
       text: "した時は",
       output: "したときは",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 3
       }]
@@ -397,7 +397,7 @@ tester.run("rule", rule, {
       text: "しない時は",
       output: "しないときは",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 4
       }]
@@ -407,7 +407,7 @@ tester.run("rule", rule, {
       text: "しなかった時は",
       output: "しなかったときは",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 6
       }]
@@ -417,7 +417,7 @@ tester.run("rule", rule, {
       text: "嬉しい時が",
       output: "嬉しいときが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 4
       }]
@@ -427,7 +427,7 @@ tester.run("rule", rule, {
       text: "嬉しかった時が",
       output: "嬉しかったときが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 6
       }]
@@ -437,7 +437,7 @@ tester.run("rule", rule, {
       text: "嬉しくない時が",
       output: "嬉しくないときが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 6
       }]
@@ -447,7 +447,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった時が",
       output: "嬉しくなかったときが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
         line: 1,
         column: 8
       }]
@@ -457,7 +457,7 @@ tester.run("rule", rule, {
       text: "する所だ",
       output: "するところだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
         line: 1,
         column: 3
       }]
@@ -467,7 +467,7 @@ tester.run("rule", rule, {
       text: "した所だ",
       output: "したところだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
         line: 1,
         column: 3
       }]
@@ -477,7 +477,7 @@ tester.run("rule", rule, {
       text: "しない所だ",
       output: "しないところだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
         line: 1,
         column: 4
       }]
@@ -487,7 +487,7 @@ tester.run("rule", rule, {
       text: "しなかった所だ",
       output: "しなかったところだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
         line: 1,
         column: 6
       }]
@@ -497,7 +497,7 @@ tester.run("rule", rule, {
       text: "今の所は",
       output: "今のところは",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
         line: 1,
         column: 3
       }]
@@ -507,7 +507,7 @@ tester.run("rule", rule, {
       text: "する方が",
       output: "するほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 3
       }]
@@ -517,7 +517,7 @@ tester.run("rule", rule, {
       text: "した方が",
       output: "したほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 3
       }]
@@ -527,7 +527,7 @@ tester.run("rule", rule, {
       text: "しない方が",
       output: "しないほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 4
       }]
@@ -537,7 +537,7 @@ tester.run("rule", rule, {
       text: "しなかった方が",
       output: "しなかったほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 6
       }]
@@ -547,7 +547,7 @@ tester.run("rule", rule, {
       text: "嬉しい方が",
       output: "嬉しいほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 4
       }]
@@ -557,7 +557,7 @@ tester.run("rule", rule, {
       text: "嬉しかった方が",
       output: "嬉しかったほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 6
       }]
@@ -567,7 +567,7 @@ tester.run("rule", rule, {
       text: "嬉しくない方が",
       output: "嬉しくないほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 6
       }]
@@ -577,7 +577,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった方が",
       output: "嬉しくなかったほうが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
         line: 1,
         column: 8
       }]
@@ -587,7 +587,7 @@ tester.run("rule", rule, {
       text: "する訳が",
       output: "するわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 3
       }]
@@ -597,7 +597,7 @@ tester.run("rule", rule, {
       text: "した訳が",
       output: "したわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 3
       }]
@@ -607,7 +607,7 @@ tester.run("rule", rule, {
       text: "しない訳が",
       output: "しないわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 4
       }]
@@ -617,7 +617,7 @@ tester.run("rule", rule, {
       text: "しなかった訳が",
       output: "しなかったわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 6
       }]
@@ -627,7 +627,7 @@ tester.run("rule", rule, {
       text: "嬉しい訳が",
       output: "嬉しいわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 4
       }]
@@ -637,7 +637,7 @@ tester.run("rule", rule, {
       text: "嬉しかった訳が",
       output: "嬉しかったわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 6
       }]
@@ -647,7 +647,7 @@ tester.run("rule", rule, {
       text: "嬉しくない訳が",
       output: "嬉しくないわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 6
       }]
@@ -657,7 +657,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった訳が",
       output: "嬉しくなかったわけが",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
         line: 1,
         column: 8
       }]
@@ -667,7 +667,7 @@ tester.run("rule", rule, {
       text: "する物だ",
       output: "するものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 3
       }]
@@ -677,7 +677,7 @@ tester.run("rule", rule, {
       text: "した物だ",
       output: "したものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 3
       }]
@@ -687,7 +687,7 @@ tester.run("rule", rule, {
       text: "しない物だ",
       output: "しないものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 4
       }]
@@ -697,7 +697,7 @@ tester.run("rule", rule, {
       text: "しなかった物だ",
       output: "しなかったものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 6
       }]
@@ -707,7 +707,7 @@ tester.run("rule", rule, {
       text: "嬉しい物だ",
       output: "嬉しいものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 4
       }]
@@ -717,7 +717,7 @@ tester.run("rule", rule, {
       text: "嬉しかった物だ",
       output: "嬉しかったものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 6
       }]
@@ -727,7 +727,7 @@ tester.run("rule", rule, {
       text: "嬉しくない物だ",
       output: "嬉しくないものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 6
       }]
@@ -737,7 +737,7 @@ tester.run("rule", rule, {
       text: "嬉しくなかった物だ",
       output: "嬉しくなかったものだ",
       errors: [{
-        message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+        message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
         line: 1,
         column: 8
       }]
@@ -751,12 +751,12 @@ tester.run("rule", rule, {
 
 することで`,
       errors: [{
-          message: "ひらがなで表記したほうが読みやすい形式名詞: \"上\" => \"うえ\"",
+          message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
           line: 1,
           column: 3
         },
         {
-          message: "ひらがなで表記したほうが読みやすい形式名詞: \"事\" => \"こと\"",
+          message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
           line: 3,
           column: 3
         }

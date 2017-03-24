@@ -3,7 +3,7 @@ module.exports = [
   // 上 => うえ
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
     expected: "うえ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -27,7 +27,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
     expected: "うえ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -51,7 +51,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
     expected: "うえ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -75,7 +75,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "上" => "うえ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 上 => うえ`,
     expected: "うえ",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -103,7 +103,7 @@ module.exports = [
   // 事 => こと
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
     expected: "こと",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -127,7 +127,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
     expected: "こと",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -151,7 +151,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
     expected: "こと",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -175,7 +175,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "事" => "こと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 事 => こと`,
     expected: "こと",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -203,7 +203,7 @@ module.exports = [
   // 毎 => ごと
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
     expected: "ごと",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -227,7 +227,7 @@ module.exports = [
   },
   {
     // 名詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
     expected: "ごと",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -251,7 +251,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
     expected: "ごと",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -275,7 +275,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "毎" => "ごと"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 毎 => ごと`,
     expected: "ごと",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -303,7 +303,7 @@ module.exports = [
   // 度 => たび
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
     expected: "たび",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -327,7 +327,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
     expected: "たび",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -351,7 +351,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
     expected: "たび",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -375,7 +375,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "度" => "たび"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 度 => たび`,
     expected: "たび",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -403,7 +403,7 @@ module.exports = [
   // 為 => ため
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
     expected: "ため",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -427,7 +427,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
     expected: "ため",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -451,7 +451,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
     expected: "ため",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -475,7 +475,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "為" => "ため"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 為 => ため`,
     expected: "ため",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -503,7 +503,7 @@ module.exports = [
   // 通り => とおり
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "通り" => "とおり"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 通り => とおり`,
     expected: "とおり",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -527,7 +527,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "通り" => "とおり"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 通り => とおり`,
     expected: "とおり",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -551,7 +551,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "通り" => "とおり"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 通り => とおり`,
     expected: "とおり",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -575,7 +575,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "通り" => "とおり"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 通り => とおり`,
     expected: "とおり",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -603,7 +603,7 @@ module.exports = [
   // 時 => とき
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
     expected: "とき",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -627,7 +627,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
     expected: "とき",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -651,7 +651,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
     expected: "とき",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -675,7 +675,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "時" => "とき"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 時 => とき`,
     expected: "とき",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -703,7 +703,7 @@ module.exports = [
   // 所 => ところ
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
     expected: "ところ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -727,7 +727,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
     expected: "ところ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -751,7 +751,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
     expected: "ところ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -775,7 +775,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
     expected: "ところ",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -802,7 +802,7 @@ module.exports = [
   },
   {
     // 名詞 + の:助詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "所" => "ところ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 所 => ところ`,
     expected: "ところ",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -841,7 +841,7 @@ module.exports = [
   // 方 => ほう
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
     expected: "ほう",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -865,7 +865,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
     expected: "ほう",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -889,7 +889,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
     expected: "ほう",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -913,7 +913,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "方" => "ほう"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 方 => ほう`,
     expected: "ほう",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -941,7 +941,7 @@ module.exports = [
   // 訳 => わけ
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
     expected: "わけ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -965,7 +965,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
     expected: "わけ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -989,7 +989,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
     expected: "わけ",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -1013,7 +1013,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "訳" => "わけ"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 訳 => わけ`,
     expected: "わけ",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字
@@ -1041,7 +1041,7 @@ module.exports = [
   // 物 => もの
   {
     // 動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
     expected: "もの",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -1065,7 +1065,7 @@ module.exports = [
   },
   {
     // 形容詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
     expected: "もの",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -1089,7 +1089,7 @@ module.exports = [
   },
   {
     // 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
     expected: "もの",
     extensions: {
       offset: 1 // 置換をスタートするtokenの添字
@@ -1114,7 +1114,7 @@ module.exports = [
   },
   {
     // 助動詞 + 助動詞 + 形式名詞
-    message: `ひらがなで表記したほうが読みやすい形式名詞: "物" => "もの"`,
+    message: `ひらがなで表記したほうが読みやすい形式名詞: 物 => もの`,
     expected: "もの",
     extensions: {
       offset: 2 // 置換をスタートするtokenの添字

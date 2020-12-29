@@ -18,7 +18,7 @@ function reporter(context, options = {}) {
     [Syntax.Str](node) { // "Str" node
       const text = getSource(node); // Get text
 
-      return kuromojin(text).then((actualTokens) => {
+      return kuromojin.tokenize(text).then((actualTokens) => {
         //console.log(actualTokens);
         const results = matchAll(actualTokens);
         

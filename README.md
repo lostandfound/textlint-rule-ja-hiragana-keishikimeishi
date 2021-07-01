@@ -17,7 +17,10 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "ja-hiragana-keishikimeishi": true
+        "ja-hiragana-keishikimeishi": {
+            //方をほうと訂正するか否か
+            "ditection_hou_kata" : false
+        }
     }
 }
 ```

@@ -28,6 +28,10 @@ function reporter(context, options = {}) {
 
         results.forEach(function(result) {
           
+          if (result.dict.expected === "ほう" && Object.keys(options).length && !options.ditection_hou_kata){
+            return;
+          }
+
           const offset = result.dict.extensions.offset === undefined ? 0 : result.dict.extensions.offset;
           const index = Math.max(result.tokens[offset].word_position - 1, 0);
 
